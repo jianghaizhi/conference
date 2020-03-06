@@ -6,10 +6,12 @@
   description: IEEE Symposium on Security and Privacy
   link: https://www.ieee-security.org/TC/SP2021/
   deadline:
-    - "2020-03-05 23:59"
+    - "2020-03-07 23:59"
     - "2020-06-04 23:59"
     - "2020-09-03 23:59"
     - "2020-12-03 23:59"
+  abstract: "May 23"
+  notification: "May 23"
   timezone: Etc/GMT+7
   place: San Francisco, CA
   tags: [SEC, PRIV]
@@ -19,6 +21,8 @@
   year: 2020
   link: https://www.ieee-security.org/TC/EuroSP2020/
   deadline: "2019-11-20 23:59"
+  abstract: "May 23"
+  notification: "May 23"
   comment: Voluntary Abstract Registration until 2019-10-22
   date: "June 16"
   place: Genova, Italy
@@ -31,6 +35,8 @@
   deadline:
     - "%y-01-20 23:59"
     - "%y-05-04 23:59"
+  abstract: "May 23"
+  notification: "May 23"
   comment: 2 review cycles
   date: "Nov 9"
   place: Orlando, FL
@@ -46,6 +52,8 @@
     - "%y-11-15 19:59"
     - "%y-02-15 19:59"
     - "%y-05-15 19:59"
+  abstract: "May 23"
+  notification: "May 23"
   comment: Rolling deadline every quarter
   timezone: America/New_York
   date: "Aug 12"
@@ -60,6 +68,8 @@
   year: 2019
   link: http://www.wpes.tech
   deadline: "2019-07-15 23:59"
+  abstract: "May 23"
+  notification: "May 23"
   comment: Collocated with ACM CCS
   date: "Nov 11"
   place: London, UK
@@ -73,6 +83,8 @@
   year: 2020
   link: https://crypto.iacr.org/2020
   deadline: "2020-02-11 16:00"
+  abstract: "May 23"
+  notification: "May 23"
   timezone: Etc/GMT+5
   date: "Aug 16"
   place: Santa Barbara, CA
@@ -85,6 +97,8 @@
   year: 2019
   link: https://www.raid-2019.org/
   deadline: "2019-04-02 23:59"
+  abstract: "May 23"
+  notification: "May 23"
   date: "Sep 23"
   place: Beijing, China
   tags: SEC
