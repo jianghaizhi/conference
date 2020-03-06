@@ -54,21 +54,19 @@
         {% for conf in site.data.conferences %}
         <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
           <div class="row">
-             <div class="col-xs-12 col-md-1">
-                999&nbsp;&nbsp;&nbsp; A
-              </div>
               <div class="col-xs-12 col-md-2">
-                <h2><a target="black" href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>              
+                <h2><a target="black" href="{{conf.link}}">{{conf.name}}</a></h2><br>
+                999&nbsp;&nbsp;&nbsp; A
               </div>
             <div class="col-xs-12 col-md-2">
                 <div class="meta">                  
-                  {{conf.date | replace: '-', '–'}} {% if conf.place %}<br> 
+                  {{conf.year}} {{conf.date | replace: '-', '–'}} {% if conf.place %}<br> 
                   <a target="black" href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>
                 </div>
               </div>
             
             <div class="col-xs-12 col-md-1">
-                {{conf.date | replace: '-', '–'}}
+                {{conf.date}}
               </div>
             
               <div class="col-xs-12 col-md-3">
