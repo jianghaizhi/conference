@@ -55,11 +55,10 @@
         <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
           <div class="row">
              <div class="col-xs-24 col-sm-1">
-                <h2>A</h2>
+                <h2>A</h2><br>
+                <h2>999</h2>
               </div>
-            <div class="col-xs-24 col-sm-1">
-                <h2>99</h2>
-              </div>
+           
               <div class="col-xs-24 col-sm-3">
                 <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
                 <div class="meta">
