@@ -54,9 +54,11 @@
         {% for conf in site.data.conferences %}
         <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
           <div class="row">
-              <div class="col-xs-12 col-md-2">
-                <h2><a target="black" href="{{conf.link}}">{{conf.name}}</a></h2><br>
-                999&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A
+              <div class="col-xs-12 col-md-1">
+                <h2><a target="black" href="{{conf.link}}">{{conf.name}}</a></h2>
+              </div>
+            <div class="col-xs-12 col-md-1">
+                999&nbsp;&nbsp;&nbsp; A
               </div>
             <div class="col-xs-12 col-md-2">
                 <div class="meta">                  
