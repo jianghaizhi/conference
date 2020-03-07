@@ -51,6 +51,9 @@
         </div>
       </div>
       <div class="conf-container">
+        <div class="col-xs-12 col-md-2">
+                <h2>Conference</h2>
+        </div>
         {% for conf in site.data.conferences %}
         <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
           <div class="row">
@@ -58,7 +61,7 @@
                 <h2><a target="black" href="{{conf.link}}">{{conf.name}}</a></h2>
               </div>
             <div class="col-xs-12 col-md-1">
-                {{conf.hindex}}&nbsp;/&nbsp; {{rank}}
+                {{conf.hindex}}&nbsp;/&nbsp; {{conf.rank}}
               </div>
             <div class="col-xs-12 col-md-1">
                 <div class="meta">                  
