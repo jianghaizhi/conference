@@ -50,10 +50,17 @@
           </div>
         </div>
       </div>
+      <div class="row">
+       <div class="col-xs-12 col-md-2"><h2>Conference</h2></div>
+        <div class="col-xs-12 col-md-1"><h2>H-Index&nbsp;/&nbsp; Rank</h2></div>
+        <div class="col-xs-12 col-md-1"><h2>Start Date</h2></div>
+        <div class="col-xs-12 col-md-2"><h2>Location</h2></div>
+        <div class="col-xs-12 col-md-1"><h2>Abstract</h2></div>
+        <div class="col-xs-12 col-md-1"><h2>Notification</h2></div>
+        <div class="col-xs-12 col-md-4"><h2>Deadline</h2></div>
+      </div>
       <div class="conf-container">
-        <div class="col-xs-12 col-md-2">
-                <h2>Conference</h2>
-        </div>
+       
         {% for conf in site.data.conferences %}
         <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
           <div class="row">
