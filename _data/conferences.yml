@@ -12,6 +12,8 @@
     - "2020-12-03 23:59"
   abstract: "May 23"
   notification: "May 23"
+  hindex: 128
+  rank: A
   timezone: Etc/GMT+7
   place: San Francisco, CA
   tags: [SEC, PRIV]
