@@ -47,7 +47,7 @@
                 </div>
               </form><hr>
              <div class="row" style="padding-top:5px">
-       <div class="col-xs-12 col-md-3"><h2>Conference<font style="float:right">H-Index&nbsp;&nbsp;Rank&nbsp;&nbsp;</font></h2></div>
+       <div class="col-xs-12 col-md-3"><h2>Conference<font style="float:right">H-Index&nbsp;&nbsp;&nbsp;Rank</font></h2></div>
         <div class="col-xs-12 col-md-1"><h2>Date</h2></div>
         <div class="col-xs-12 col-md-2"><h2>Location</h2></div>
         <div class="col-xs-12 col-md-1"><h2>Abstract</h2></div>
@@ -67,7 +67,7 @@
         <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
           <div class="row">
               <div class="col-xs-12 col-md-3">
-                <h2><a target="black" href="{{conf.link}}">{{conf.name}}</a><font style="float:right">{{conf.hindex}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{conf.rank}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></h2>
+                <h2><a target="black" href="{{conf.link}}">{{conf.name}}</a><font style="float:right">{{conf.hindex}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{conf.rank}}&nbsp;&nbsp;&nbsp;</font></h2>
               </div>
             
             <div class="col-xs-12 col-md-1">
