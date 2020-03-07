@@ -63,7 +63,7 @@ $(function() {
       return function(event) {
         diff = moment() - confDeadline
         if (diff <= 0) {
-           $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+           $(this).html(event.strftime('%D d %Hh %Mm %Ss'));
         } else {
           $(this).html(confDeadline.fromNow());
         }
@@ -74,7 +74,7 @@ $(function() {
     if (moment() - confDeadline > 0) {
       $('#{{ conf_id }}').addClass('past');
     }
-    $('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+    $('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('MMM D YYYY, h:mm'));
     deadlineByConf["{{ conf_id }}"] = confDeadline;
   }
   {% endif %}
