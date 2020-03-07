@@ -6,15 +6,15 @@
   description: IEEE Symposium on Security and Privacy
   link: https://www.ieee-security.org/TC/SP2021/
   deadline:
-    - "2020-03-07 23:59"
+    - "2020-03-06 23:59"
     - "2020-06-04 23:59"
     - "2020-09-03 23:59"
     - "2020-12-03 23:59"
-  abstract: "May 23"
-  notification: "May 23"
+  abstract: "N/A"
+  notification: "Jan 15"
   hindex: 128
   rank: A
-  timezone: Etc/GMT+7
+  timezone: Etc/GMT+12
   place: San Francisco, CA
   tags: [SEC, PRIV]
 
