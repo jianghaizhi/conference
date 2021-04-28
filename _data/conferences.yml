@@ -30,7 +30,7 @@
   date: "Nov 14"
   hindex: 88
   rank: A
-  place: Seoul, South Korea
+  place: Seoul, SK
   tags: [SEC, PRIV]
 
 
@@ -61,37 +61,15 @@
   notification: "May 23"
   comment: Voluntary Abstract Registration until 2019-10-22
   date: "June 16"
-  place: Genova, Italy
+  place: Genova, IT
   tags: [SEC, PRIV]
 
 # Privacy
 
-- name: WPES
-  description: Workshop on Privacy in the Electronic Society
-  year: 2019
-  link: http://www.wpes.tech
-  deadline: "2019-07-15 23:59"
-  abstract: "May 23"
-  notification: "May 23"
-  comment: Collocated with ACM CCS
-  date: "Nov 11"
-  place: London, UK
-  timezone: Etc/GMT+11
-  tags: [PRIV]
 
 # Crypto
 
-- name: Crypto
-  description: International Cryptology Conference
-  year: 2020
-  link: https://crypto.iacr.org/2020
-  deadline: "2020-02-11 16:00"
-  abstract: "May 23"
-  notification: "May 23"
-  timezone: Etc/GMT+5
-  date: "Aug 16"
-  place: Santa Barbara, CA
-  tags: CRYPTO
+
 
 # Networks and systems, applications
 
@@ -103,7 +81,7 @@
   abstract: "May 23"
   notification: "May 23"
   date: "Sep 23"
-  place: Beijing, China
+  place: Beijing, CN
   tags: SEC
 
 
