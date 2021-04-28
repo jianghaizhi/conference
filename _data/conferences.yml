@@ -104,18 +104,6 @@
 
 # Networks and systems, applications
 
-- name: RAID
-  description: International Symposium on Recent Advances in Intrusion Detection
-  year: 2019
-  link: https://www.raid-2019.org/
-  deadline: "2019-04-02 23:59"
-  abstract: "May 23"
-  notification: "May 23"
-  date: "Sep 23"
-  place: Beijing, CN
-  tags: SEC
-  hindex: 71
-  rank: A
 
 
 
