@@ -63,7 +63,7 @@ $(function() {
       return function(event) {
         diff = moment() - confDeadline
         if (diff <= 0) {
-           $(this).html(event.strftime('%D'));
+           $(this).html(event.strftime('%D days and %H hours'));
         } else {
           $(this).html(confDeadline.fromNow());
         }
