@@ -28,6 +28,7 @@
   notification: "May 23"
   comment: 2 review cycles
   date: "Nov 14"
+  rank: A
   place: Seoul, South Korea
   tags: [SEC, PRIV]
 
@@ -45,6 +46,7 @@
   comment: Rolling deadline every quarter
   timezone: AoE
   date: "Aug 10"
+  rank: A
   place: Boston, MA
   tags: [SEC, PRIV]
 
