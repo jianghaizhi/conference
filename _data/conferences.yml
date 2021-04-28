@@ -82,6 +82,20 @@
   hindex: 34
   rank: B
 
+
+- name: IEEE CNS
+  description: IEEE Conference on Communications and Network Security
+  year: 2021
+  link: https://cns2021.ieee-cns.org
+  deadline: "2021-05-17 23:59"
+  abstract: "N/A"
+  notification: "Jul 9"
+  date: "Oct 4"
+  place: Online
+  tags: [SEC, PRIV]
+  hindex: 22
+  rank: ≈B
+
 # Privacy
 
 
