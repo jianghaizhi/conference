@@ -58,8 +58,7 @@
         </div>
       </div>
       
-      <div class="conf-container">
-       
+      <div class="conf-container">      
         {% for conf in site.data.conferences %}
         <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
           <div class="row">
