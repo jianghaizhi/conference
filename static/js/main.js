@@ -74,7 +74,7 @@ $(function() {
     if (moment() - confDeadline > 0) {
       $('#{{ conf_id }}').addClass('past');
     }
-    $('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('MMM D YYYY, '));
+    $('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('MMM D YYYY, h:mm a'));
     deadlineByConf["{{ conf_id }}"] = confDeadline;
   }
   {% endif %}
