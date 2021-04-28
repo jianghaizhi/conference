@@ -13,8 +13,39 @@
   notification: "Sep 30"
   hindex: 128
   rank: A
-  timezone: Etc/GMT+12
-  place: San Francisco
+  timezone: UTC-12
+  place: San Francisco, CA
+  tags: [SEC, PRIV]
+
+- name: CCS
+  description: ACM Conference on Computer and Communications Security
+  year: 2021
+  link: https://www.sigsac.org/ccs/CCS2021/
+  deadline:
+    - "2021-01-20 23:59"
+    - "2021-05-06 23:59"
+  abstract: "N/A"
+  notification: "May 23"
+  comment: 2 review cycles
+  date: "Nov 14"
+  place: Seoul, South Korea
+  tags: [SEC, PRIV]
+
+
+- name: USENIX Security
+  description: Usenix Security Symposium
+  year: 2022
+  link: https://www.usenix.org/conference/usenixsecurity22
+  deadline:
+    - "2021-06-08 23:59"
+    - "2021-10-12 23:59"
+    - "2022-02-01 23:59"
+  abstract: "N/A"
+  notification: "July 15"
+  comment: Rolling deadline every quarter
+  timezone: AoE
+  date: "Aug 10"
+  place: Boston, MA
   tags: [SEC, PRIV]
 
 - name: Euro S&P
@@ -28,39 +59,6 @@
   date: "June 16"
   place: Genova, Italy
   tags: [SEC, PRIV]
-
-- name: CCS
-  description: ACM Conference on Computer and Communications Security
-  year: 2020
-  link: https://www.sigsac.org/ccs/CCS2020/
-  deadline:
-    - "%y-01-20 23:59"
-    - "%y-05-04 23:59"
-  abstract: "May 23"
-  notification: "May 23"
-  comment: 2 review cycles
-  date: "Nov 9"
-  place: Orlando, FL
-  tags: [SEC, PRIV]
-
-
-- name: USENIX Security
-  description: Usenix Security Symposium
-  year: 2020
-  link: https://www.usenix.org/conference/usenixsecurity20
-  deadline:
-    - "%y-08-23 19:59"
-    - "%y-11-15 19:59"
-    - "%y-02-15 19:59"
-    - "%y-05-15 19:59"
-  abstract: "May 23"
-  notification: "May 23"
-  comment: Rolling deadline every quarter
-  timezone: America/New_York
-  date: "Aug 12"
-  place: Boston, MA
-  tags: [SEC, PRIV]
-
 
 # Privacy
 
