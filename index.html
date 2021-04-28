@@ -47,12 +47,12 @@
                 </div>
               </form><hr>
              <div class="row" style="padding-top:5px">
-       <div class="col-xs-12 col-md-3"><h2>Conference<font style="float:right">H-Index&nbsp;&nbsp;&nbsp;CCF</font></h2></div>
-        <div class="col-xs-12 col-md-1"><h2>Date</h2></div>
-        <div class="col-xs-12 col-md-2"><h2>Location</h2></div>
+       <div class="col-xs-12 col-md-3"><h2>Conference<font style="float:right">H5-Index&nbsp;&nbsp;&nbsp;CCF</font></h2></div>
         <div class="col-xs-12 col-md-1"><h2>Abstract</h2></div>
         <div class="col-xs-12 col-md-1"><h2>Notification</h2></div>
         <div class="col-xs-12 col-md-4"><h2 style="float:right;">Deadline</h2></div>
+        <div class="col-xs-12 col-md-1"><h2>Date</h2></div>
+        <div class="col-xs-12 col-md-2"><h2>Location</h2></div>
       </div>
                  
             <!-- </div> -->
@@ -71,14 +71,6 @@
               </div>
             
             <div class="col-xs-12 col-md-1">
-                <div class="meta">                  
-                 {{conf.month}} {{conf.date}} 
-                 </div>
-              </div>            
-             <div class="col-xs-12 col-md-2">
-                <a target="black" href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
-              </div> 
-            <div class="col-xs-12 col-md-1">
                 {{conf.abstract}}
               </div>
             <div class="col-xs-12 col-md-1">
@@ -87,7 +79,14 @@
               <div class="col-xs-12 col-md-4">
                 <font style="float:right"><span class="deadline-time"></span> : <b><span class="timer"></span></b></font> 
               </div>
-               
+              <div class="col-xs-12 col-md-1">
+                <div class="meta">                  
+                 {{conf.month}} {{conf.date}} 
+                 </div>
+              </div>            
+             <div class="col-xs-12 col-md-2">
+                <a target="black" href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
+              </div>
             
           </div>
           <hr>
