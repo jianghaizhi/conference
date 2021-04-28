@@ -33,7 +33,6 @@
   place: Seoul, SK
   tags: [SEC, PRIV]
 
-
 - name: USENIX Security
   description: Usenix Security Symposium
   year: 2022
@@ -51,6 +50,21 @@
   rank: A
   place: Boston, MA
   tags: [SEC, PRIV]
+
+- name: NDSS
+  description: ISOC Network and Distributed System Security Symposium
+  year: 2022
+  link: https://www.ndss-symposium.org/ndss-2022/
+  comment: 2 review cycles
+  deadline:
+    - "2021-05-21 23:59"
+    - "2021-07-23 23:59"
+  notification: "Jun 28"
+  date: "Feb 21"
+  hindex: 71
+  rank: A
+  place: San Diego, CA
+  tags: SEC
 
 - name: Euro S&P
   description: IEEE European Symposium on Security and Privacy
