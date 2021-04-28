@@ -2,9 +2,9 @@
 # Security and Privacy
 - name: IEEE S&P
   year: 2022
-  date: "May 22-26"
+  date: "May 22"
   description: IEEE Symposium on Security and Privacy
-  link: https://www.ieee-security.org/TC/SP2021/
+  link: https://www.ieee-security.org/TC/SP2022/
   deadline:
     - "2021-04-15 23:59"
     - "2021-08-19 23:59"
@@ -14,7 +14,7 @@
   hindex: 128
   rank: A
   timezone: Etc/GMT+12
-  place: San Francisco, CA
+  place: San Francisco
   tags: [SEC, PRIV]
 
 - name: Euro S&P
