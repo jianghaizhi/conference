@@ -67,29 +67,20 @@
   place: San Diego, CA
   tags: SEC
 
-- name: Euro S&P
-  description: IEEE European Symposium on Security and Privacy
-  year: 2020
-  link: https://www.ieee-security.org/TC/EuroSP2020/
-  deadline: "2019-11-20 23:59"
-  abstract: "May 23"
-  notification: "May 23"
-  comment: Voluntary Abstract Registration until 2019-10-22
-  date: "June 16"
-  place: Genova, IT
-  tags: [SEC, PRIV]
-
 - name: ESORICS
   description: European Symposium on Research in Computer Security
   year: 2021
   link: https://esorics2021.athene-center.de/call-for-papers.php
   deadline: "2021-05-12 23:59"
   abstract: "May 5"
+  notification: "Jun 21"
   timezone: Etc/GMT-1
   comment: Title and abstract deadline on May 5
   date: "Oct 4"
   place: Darmstadt, GM
   tags: [SEC, PRIV]
+  hindex: 34
+  rank: B
 
 # Privacy
 
@@ -109,6 +100,8 @@
   date: "Sep 23"
   place: Beijing, CN
   tags: SEC
+  hindex: 71
+  rank: A
 
 
 
