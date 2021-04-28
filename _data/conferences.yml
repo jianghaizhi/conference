@@ -13,7 +13,6 @@
   notification: "Sep 30"
   hindex: 74
   rank: A
-  timezone: UTC-12
   place: SFC, CA 
   tags: [SEC, PRIV]
 
@@ -44,7 +43,6 @@
   abstract: "N/A"
   notification: "July 15"
   comment: Rolling deadline every quarter
-  timezone: AoE
   date: "Aug 10"
   hindex: 80
   rank: A
