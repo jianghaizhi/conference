@@ -79,6 +79,18 @@
   place: Genova, IT
   tags: [SEC, PRIV]
 
+- name: ESORICS
+  description: European Symposium on Research in Computer Security
+  year: 2021
+  link: https://esorics2021.athene-center.de/call-for-papers.php
+  deadline: "2021-05-12 23:59"
+  abstract: "May 5"
+  timezone: Etc/GMT-1
+  comment: Title and abstract deadline on May 5
+  date: "Oct 4"
+  place: Darmstadt, GM
+  tags: [SEC, PRIV]
+
 # Privacy
 
 
