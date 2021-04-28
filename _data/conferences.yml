@@ -1,17 +1,16 @@
 ---
 # Security and Privacy
 - name: IEEE S&P
-  year: 2021
-  date: "May 23"
+  year: 2022
+  date: "May 22-26"
   description: IEEE Symposium on Security and Privacy
   link: https://www.ieee-security.org/TC/SP2021/
   deadline:
-    - "2020-03-06 23:59"
-    - "2020-06-04 23:59"
-    - "2020-09-03 23:59"
-    - "2020-12-03 23:59"
+    - "2021-04-15 23:59"
+    - "2021-08-19 23:59"
+    - "2021-12-02 23:59"
   abstract: "N/A"
-  notification: "Jan 15"
+  notification: "Sep 30"
   hindex: 128
   rank: A
   timezone: Etc/GMT+12
